@@ -1,1 +1,38 @@
-<p>navbar works!</p>
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nav</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<section>
+
+    <header class="header">
+
+      <a href="#" class="logo">LOGO</a>
+
+      <input type="checkbox" id="check">
+      <label for="check" class="icon">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-x' id="close-icon"></i>
+      </label>
+
+      <nav class="nav">
+        <a routerLink="/home" style="--i:0;">Home</a>
+        <a routerLink="/cv" style="--i:1;">CV</a>
+        <a routerLink="/orarend" style="--i:2;">Timetable</a>
+        <a routerLink="calendar" style="--i:3;">Calendar</a>
+        <a routerLink="/images" style="--i:4;">Images</a>
+        <a routerLink="/videos" style="--i:5;">Videos</a>
+        <a routerLink="/chess" style="--i:6;">Chess</a>
+    </nav>
+    </header>
+
+</section>
+
+</body>
+</html>
