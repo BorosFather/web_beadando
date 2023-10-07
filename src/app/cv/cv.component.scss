@@ -5,6 +5,165 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    color: aliceblue;
     
 }
+
+.container {
+    padding: 50px;
+    background-color: white;
+    border-style: solid;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    // margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.studes {
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+h1 {
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(14, 63, 63);
+    width: 900px;
+    margin-left: auto;
+}
+
+.neu {
+   margin-top: 10px;
+   border-top: 5px solid black;
+   width: 700px;    
+}
+
+.bzsh {
+    margin-top: 10px;
+
+}
+
+.bzsh ul {
+    margin-left: 50px;
+}
+
+img {
+    border-radius: 100px;
+    float: left;
+}
+
+.jobs {
+    margin-top: 10px;
+    border-top: 5px solid black;
+    width: 700px;
+}
+
+.about {
+    margin-top: 10px;
+    border-top: 5px solid black;
+    width: 700px;
+}
+
+.myself {
+    float: left;
+}
+
+.left {
+ border-right: 10px;
+    width: 20%;
+}
+
+.right {
+
+}
+
+.myself a {
+    text-decoration: none;
+}
+
+.spells {
+    
+}
+
+.spells h2 {
+    border-bottom: 5px solid black;
+    width: 300px;
+    
+}
+
+.spells p {
+    border-radius: 5px;
+    background-color: rgb(114, 117, 117);;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 30px;
+
+}
+
+.lang h2 {
+    border-bottom: 5px solid black;
+    width: 300px;
+}
+
+.intre h2 {
+    border-bottom: 5px solid black;
+    width: 300px;
+}
+
+.intre p {
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.btntext {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.btntext p {
+    font-size: 8px;
+}
+
+button {
+    // height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    font-size: larger;
+    cursor: pointer;
+    background-color: dodgerblue;
+    border: none;
+    padding: 12px 30px;
+}
+
+button:hover {
+    background-color: rgb(37, 71, 105);
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
