@@ -1,1 +1,63 @@
-<p>images works!</p>
+
+<div class="container">
+
+    <div class="btn-group">
+        <!-- <a href="">All</a>
+        <a href="">Blender</a>
+        <a href="">SW Galaxy of Heroes</a> -->
+        <button class="all" (click)="all()" >All</button>
+        <button class="blender" (click)="blend()">Blender modells</button>
+        <button class="swgoh" (click)="sw()">SW Galaxy of Heroes</button>
+    </div>
+
+   
+
+    <div class="sw"  id="sw" [style.display]="showSw ? 'block' : 'none'">
+        <img src="../../assets/imgs/sw/1.png" alt="" width="300">
+        <img src="../../assets/imgs/sw/2.png" alt="" width="300">
+        <img src="../../assets/imgs/sw/3.png" alt="" width="300">
+        <img src="../../assets/imgs/sw/4.png" alt="" width="300">
+        <img src="../../assets/imgs/sw/5.png" alt="" width="300">
+        <img src="../../assets/imgs/sw/6.jpg" alt="" width="300">
+        <img src="../../assets/imgs/sw/7.jpg" alt="" width="300">
+        <img src="../../assets/imgs/sw/8.jpg" alt="" width="300">
+        <img src="../../assets/imgs/sw/9.png" alt="" width="300">
+        <img src="../../assets/imgs/sw/10.png" alt="" width="300">
+        <img src="../../assets/imgs/sw/11.webp" alt="" width="300">
+        <img src="../../assets/imgs/sw/12.jpg" alt="" width="300">
+        <img src="../../assets/imgs/sw/13.jpg" alt="" width="300">
+        <img src="../../assets/imgs/sw/14.webp" alt="" width="300">
+        <img src="../../assets/imgs/sw/15.png" alt="" width="300">
+        <img src="../../assets/imgs/sw/16.png" alt="" width="300">
+        <img src="../../assets/imgs/sw/17.png" alt="" width="300">
+        <img src="../../assets/imgs/sw/18.png" alt="" width="300">
+    </div>
+
+    <div class="blend" id="blend" [style.display]="showBlend ? 'block' : 'none'">
+        <img src="../../assets/imgs/blender/fank_vegso.png" alt="" width="300">
+        <img src="../../assets/imgs/blender/sziget.png" alt="" width="300">
+        <img src="../../assets/imgs/blender/planeta.png" alt="" width="300">
+        <img src="../../assets/imgs/blender/pandea_bete.jpg" alt="" width="300">
+        <img src="../../assets/imgs/blender/pangea.jpg" alt="" width="300">
+        
+    </div>
+
+
+
+
+</div>
+
+<script>
+    document.getElementById('all').addEventListener('click', function () {
+    document.getElementById('sw').style.display = 'inline-block';
+    document.getElementById('blend').style.display = 'inline-block';
+});
+
+document.getElementById('blender').addEventListener('click', function () {
+    document.getElementById('sw').style.display = 'none';
+});
+
+document.getElementById('swgoh').addEventListener('click', function () {
+    document.getElementById('blend').style.display = 'none';
+});
+</script>
