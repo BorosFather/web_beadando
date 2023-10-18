@@ -48,5 +48,23 @@ img {
     width: 60%;
 }
 .bdown {
+    border: 0 solid;
+    transform: scale(-1, -1);
+}
+
+#btop {
+    border-top: 15px solid #b18361 ;
+}
+
+#flip {
+    border-left: 15px solid #b18361;
+    transform: scale(1, -1);
+}
+
+#bdown {
     border-bottom: 15px solid #b18361;
+}
+
+#bright {
+    border-right: 15px solid #b18361;
 }

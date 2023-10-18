@@ -13,12 +13,8 @@
     padding: 50px;
     background-color: rgb(25, 34, 90);
     width: 1200px;
-    // margin-left: auto;
-    // margin-right: auto;
     margin: auto;
     margin-top: 100px;
-    // display: flex;
-    // flex-direction: row; 
 }
 
 .btn-group button {
@@ -31,7 +27,6 @@
     width:33.3%;
 }
   
-  
 .btn-group:after {
     content: "";
     clear: both;
@@ -39,27 +34,12 @@
 }
   
 .btn-group button:not(:last-child) {
-    border-right: none; /* Prevent double borders */
+    border-right: none; 
 }
   
 .btn-group button:hover {
     background-color: #3262bb;
-
 }
-
-.sw {
-    display: block;
-    text-align:center;
-    padding: 30px;
-    transition: transform .2s;
-}
-
-.blend {
-
-    display: block;
-    text-align:center;
-    padding: 30px;
-} 
 
 img {
     transition: transform .2s;
@@ -67,5 +47,27 @@ img {
 }
 
 img:hover {
-    transform: scale(1.5);
+    transform: scale(2);
 }
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .col {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  img {
+    max-width: 300px;
+    height: auto;
+  }

@@ -7,12 +7,22 @@
     color: aliceblue;
 }
 
+.container {
+    width: 1200px;
+    background-color: rgb(36, 50, 177);
+    margin: auto;
+}
+
 h2 {
     margin-top: 120px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+table {
+    background-color: rgba(37, 35, 35, 0.712);
 }
 
 .studes {
@@ -30,6 +40,17 @@ table, th, td {
 }
 
 table th tr {
-    width: 150;
-    height: 100;
+    // width: 150;
+    // height: 100;
+}
+
+th, td {
+    // width: 120px;
+    // height: 100px;
+    text-align: center;
+}
+
+.name {
+    align-items: center;
+    justify-content: center;
 }
