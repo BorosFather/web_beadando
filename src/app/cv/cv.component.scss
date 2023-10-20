@@ -19,6 +19,7 @@
     // margin: auto;
     display: flex;
     flex-direction: row;
+    z-index: 1
 }
 
 .studes {
@@ -71,20 +72,12 @@ img {
 }
 
 .left {
- border-right: 10px;
+    border-right: 10px;
     width: 20%;
-}
-
-.right {
-
 }
 
 .myself a {
     text-decoration: none;
-}
-
-.spells {
-    
 }
 
 .spells h2 {
@@ -101,7 +94,6 @@ img {
     margin-bottom: 10px;
     text-align: center;
     height: 30px;
-
 }
 
 .lang h2 {
@@ -160,6 +152,7 @@ button {
 button:hover {
     background-color: rgb(37, 71, 105);
 }
+
 button a {
     color: white;
     text-decoration: none;

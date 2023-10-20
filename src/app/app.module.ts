@@ -12,6 +12,9 @@ import { VideosComponent } from './videos/videos.component';
 import { ChessComponent } from './chess/chess.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BackgroundComponent } from './background/background.component';
+import { VideostwoComponent } from './videostwo/videostwo.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PacsivideoComponent } from './pacsivideo/pacsivideo.component';
 
 @NgModule({
   declarations: [
@@ -25,12 +28,15 @@ import { BackgroundComponent } from './background/background.component';
     ChessComponent,
     NavbarComponent,
     BackgroundComponent,
+    VideostwoComponent,
+    PacsivideoComponent,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    YouTubePlayerModule
+    YouTubePlayerModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

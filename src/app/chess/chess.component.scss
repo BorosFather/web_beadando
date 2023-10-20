@@ -49,7 +49,8 @@ img {
 }
 .bdown {
     border: 0 solid;
-    transform: scale(-1, -1);
+    // transform: scale(-1, -1);
+    transform: rotate(180deg);
 }
 
 #btop {
@@ -58,7 +59,8 @@ img {
 
 #flip {
     border-left: 15px solid #b18361;
-    transform: scale(1, -1);
+    // transform: scale(1, -1);
+    transform: rotate(180deg);
 }
 
 #bdown {

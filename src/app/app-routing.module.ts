@@ -7,15 +7,19 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { ImagesComponent } from './images/images.component';
 import { VideosComponent } from './videos/videos.component';
 import { ChessComponent } from './chess/chess.component';
+import { VideostwoComponent } from './videostwo/videostwo.component';
+import { PacsivideoComponent } from './pacsivideo/pacsivideo.component';
 
 const routes: Routes = [
-  {path: "home", component:HomeComponent},
+  {path: "", component:HomeComponent},
   {path: "cv", component:CvComponent},
   {path: "orarend", component:OrarendComponent},
   {path: "calendar", component:CalendarComponent},
   {path: "images", component:ImagesComponent},
   {path: "videos", component:VideosComponent},
-  {path: "chess", component:ChessComponent}
+  {path: "chess", component:ChessComponent},
+  {path: "videostwo", component:VideostwoComponent},
+  {path: "pacsivideo", component:PacsivideoComponent}
 ];
 
 @NgModule({

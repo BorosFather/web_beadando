@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { YouTubePlayerModule } from '@angular/youtube-player';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
-  selector: 'app-videos',
-  templateUrl: './videos.component.html',
-  styleUrls: ['./videos.component.scss']
+  selector: 'app-videostwo',
+  templateUrl: './videostwo.component.html',
+  styleUrls: ['./videostwo.component.scss']
 })
-export class VideosComponent {
+export class VideostwoComponent {
+
   apiLoaded = false;
 
   ngOnInit() {
@@ -29,5 +29,4 @@ export class VideosComponent {
   getVideo(videoId: string) {
     return this.http.get(`${this.apiUrl}/videos?id=${videoId}&key=${this.apiKey}&part=snippet`);
   }
-
 }
