@@ -9,7 +9,6 @@
 
 .container {
     width: 1200px;
-    // background-color: rgb(36, 50, 177);
     margin: auto;
 }
 
@@ -37,16 +36,10 @@ table {
 
 table, th, td {
     border: 1px solid;
-}
-
-table th tr {
-    // width: 150;
-    // height: 100;
+    border-collapse: collapse;
 }
 
 th, td {
-    // width: 120px;
-    // height: 100px;
     text-align: center;
 }
 
